@@ -61,6 +61,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "pre-deploy": "npx rollup -c",
+    "postinstall": "npx rollup -c",
     "deploy": "npm publish dist --access=public",
     "eslint": "npx eslint ./src",
     "test:cypress": "npx cypress open",
